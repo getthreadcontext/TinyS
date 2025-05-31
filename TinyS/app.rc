@@ -1,0 +1,13 @@
+#include "resource.h"
+
+MAIN_MENU MENU
+{
+    POPUP "&File"
+    {
+        MENUITEM "&Open\tCtrl+O", ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S", ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit", ID_FILE_EXIT
+    }
+}
+
